@@ -1,50 +1,41 @@
-# React + TypeScript + Vite
+# Service Cards Layout Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a responsive portfolio website layout built with `React`, `Vite`, and `Tailwind CSS`. The layout includes various sections like Hero Header, Experience, Projects, Services, and more, providing a structured and visually appealing presentation for personal or professional use.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Live Project: [View on Vercel](https://portfolio-zd96.vercel.app/)
 
-- Configure the top-level `parserOptions` property like this:
+## 📋 Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Responsive Design**: Automatically adapts to various screen sizes—single column on mobile, two columns on medium screens, and three columns on large screens.
+- **Dynamic Styling**: Cards feature hover effects for an interactive user experience.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## ⚙️ Project Setup
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+To set up this project locally, follow these steps:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- [Vite](https://vitejs.dev/)
+
+### Installation Steps
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/<Your-username>/Portfolio
+   cd Portfolio
+   npm install
+   npm run dev
+
+## 📞 Contact
+
+If you have any questions or would like to connect, feel free to reach out:
+
+- **Twitter**: [https://x.com/_x_ankit](https://x.com/_x_ankit)
