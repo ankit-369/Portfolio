@@ -2,10 +2,12 @@
 
 
 
-This project is a responsive portfolio website layout built with `React`, `Vite`, and `Tailwind CSS`. The layout includes various sections like Hero Header, Experience, Projects, Services, and more, providing a structured and visually appealing presentation for personal or professional use.
+This is a responsive portfolio website layout built with `React`, `Vite`, and `Tailwind CSS`. The layout includes various sections like Hero Header, Experience, Projects, Services, and more, providing a structured and visually appealing presentation for personal or professional use.
 
+it's deployed on Vercel :)
 
-Live Project: [View on Vercel](https://portfolio-zd96.vercel.app/)
+Live Project: [https://www.ankytt.tech/](https://www.ankytt.tech/)
+
 
 ## 📋 Features
 
