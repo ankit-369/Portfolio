@@ -20,7 +20,7 @@ function App() {
             'Review Management: Intuitive dashboard for viewing, managing, and interacting with testimonials.',
             'Flexible Integration: Access testimonial data in JSON format for seamless integration into websites.',
         ],
-        technologies: ['Next.js', 'TypeScript', 'NextAuth', 'Prisma', 'AWS S3', 'Tailwind CSS'],
+        technologies: ['Next.js', 'TypeScript', 'NextAuth', 'Prisma', 'AWS S3','Docker', 'Tailwind CSS'],
     },
     {
         title: 'YouTube Layer',

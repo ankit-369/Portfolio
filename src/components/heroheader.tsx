@@ -3,8 +3,8 @@ import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 
 const HeroHeader = () => {
     const skills = [
-        'React', 'Node.js', 'Next.js', 'Tailwind CSS',
-        'TypeScript', 'Prisma', 'MongoDB'
+        'Php','React', 'Node.js (Express)', 'Next.js', 
+        'TypeScript','JavaScript','Docker', 'Prisma', 'MongoDB','Tailwind CSS','Twig'
     ];
 
     const socialLinks = [
