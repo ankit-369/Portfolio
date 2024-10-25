@@ -95,14 +95,14 @@ type Projectss = {
     description: string;
     features: string[];
     technologies: string[];
-  };
-  type ProjectsProps = {
+};
+type ProjectsProps = {
     projects: Projectss[];
-  };
-  
-  
-  const Projects: React.FC<ProjectsProps> = ({ projects }) => {
-    
+};
+
+
+const Projects: React.FC<ProjectsProps> = ({ projects }) => {
+
 
     return (
         <section className="relative py-20 bg-[#0B192C]" id="projects">
